@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('./fonts/Parastoo.eot');
+    src: url('./fonts/Parastoo.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo.woff') format('woff'),
+         url('./fonts/Parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ParastooBold;
+    src: url('./fonts/Parastoo-Bold.eot');
+    src: url('./fonts/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo-Bold.woff') format('woff'),
+         url('./fonts/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Parastoo
+}
+
+.navbar {
+    width: 100%;
+    background-color:#f4f5f7;
+    padding: 5px;
+}
+    
+.centerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin : auto;
+}
+
+.navbarRight {
+    display: flex;
+    /* background-color: blue; */
+}
+
+.navbarLeft {
+    /* background-color: brown; */
+}
+
+.navbarItem {
+    font-family: Parastoo;
+    color: #898f99;
+}
+
+.navbarRightItem {
+    margin: 0px 10px 0px 10px;
+}
+
+.header {
+    width: 100%;
+    background-color:'white';
+    padding: 5px;
+    box-shadow: 0px 5px 5px #b0b6c1;
+}
+
+#verifyAdButton {
+    font-family: Parastoo;
+    font-size: 12px;
+    color: white;
+    border : 0;
+    background-color:#198ad6;
+    padding: 8px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.main {
+    background-color: #f4f5f7;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column
+}
+
+h3, h4 {
+    font-family: ParastooBold;
+}
+
+.searchBar {
+    margin-top: 50px;
+    background-color: white;
+    /* border-radius: 10%; */
+    padding: 10px;
+}
+
+.columnDir {
+    display: flex;
+    flex-direction: column
+}
+
+#searchInput {
+    font-family: Parastoo;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #bbbcbf;
+    padding: 20px;
+}
+
+#searchButton {
+    font-family: Parastoo;
+    width: 15%;
+    height: 50px;
+    background-color: #eaedf2;
+    border: 1px solid #bbbcbf;
+    border-radius: 5px;
+}
+
+.shadowBehind {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.categories {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detailedCategory {
+    background-color: white;
+    width: 22%;
+    padding: 7px;
+}
+
+.categoryHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showAll {
+    color: #1935d6;
+}
+
+.categoryNumber {
+    color: gray;
+}
+
+hr {
+    border-top : 1px solid #edeef2;
+    width: 80%;
+    margin: auto;
+}
+
+
+
